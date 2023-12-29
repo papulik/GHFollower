@@ -8,10 +8,11 @@
 import UIKit
 
 class FollowerCell: UICollectionViewCell {
-    static let reuseID = "FollowerCell"
     
+    static let reuseID = "FollowerCell"
     let avatarImageView = GFAvatarImageView(frame: .zero)
     let usernameLabel = GFTitleLabel(textAligment: .center, fontSize: 16)
+    
     let padding: CGFloat = 8
     
     override init(frame: CGRect) {
